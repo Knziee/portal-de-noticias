@@ -18,7 +18,13 @@ function FotosDoHomemAranha() {
     //array vazio executa apenas uma vez no momento da construção do componente
     useEffect(() => {
 
+        // const getNoticias = async ()=> {
+        //     // const response = await getTopHeadLines()
+        //     const response = await getSpidermanPics()
+        //     setArticles(response.articles)
+        // };
 
+        // getNoticias();
 
     },[])
 

@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 
 export const CardBackground = styled.div`
-background-color: white;
+background-color: #e8e8e8;
 width: 600px;
 min-height: 400px;
 max-height:400px;
@@ -36,13 +36,3 @@ margin-top:20px;
 max-height:10px;
 `
 
-export const CardButton = styled.button`
-position:absolute;
-font-size: 20px;
-padding: 10px 10px 10px;
-color: #ffff;
-background-color: red;
-border: none;
-border-radius:5px;
-margin-top:330px
-`

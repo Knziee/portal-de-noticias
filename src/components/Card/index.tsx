@@ -1,4 +1,5 @@
-import { CardBackground, CardText, CardTitle, CardDescription, CardButton } from './styles'
+
+import { CardBackground, CardText, CardTitle, CardDescription } from './styles'
 
 interface PropsCard {
     imageUrl: string;
@@ -10,13 +11,13 @@ interface PropsCard {
 
 function Card(props: PropsCard) {
 return (
+
   <CardBackground>
-<img src={props.imageUrl} alt="" />  
+    <a href={props.link}><img src={props.imageUrl} alt="" />  </a>
     <CardText>
-    <CardTitle> {props.titulo}  </CardTitle>
+    <a href={props.link}> <CardTitle> {props.titulo}  </CardTitle> </a>
     <CardDescription>{props.desc}</CardDescription>
     </CardText>
-    <CardButton> Ir para notícia </CardButton>
  </CardBackground>
 )
 
