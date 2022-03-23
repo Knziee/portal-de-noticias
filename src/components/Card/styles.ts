@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 
-
 export const CardBackground = styled.div`
 background-color: #e8e8e8;
 width: 600px;
@@ -11,6 +10,7 @@ border-radius: 20px;
 display:flex;
 justify-content:center;
 margin-left:1%;
+
 img {
     object-fit:cover;
     height:390px;

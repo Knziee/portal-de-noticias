@@ -34,17 +34,7 @@ export const getEntretainNews = async ()=>{
         }
     }
 }
-// export const getSpidermanPics = async ()=>{
-//     try {
-//         const response = await newsApi.get('/top-headlines?country=br&category=sports');
-        
-//         return response.data;
-//     } catch (error) {
-//         return {
-//             message: "Erro ao tentar receber dados da API"
-//         }
-//     }
-// }
+
 export const getTechNews = async ()=>{
     try {
         const response = await newsApi.get('/top-headlines?country=br&category=technology');

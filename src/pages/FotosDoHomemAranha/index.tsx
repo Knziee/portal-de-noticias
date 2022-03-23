@@ -1,52 +1,45 @@
 import { useEffect, useState } from 'react';
 import Header from '../../components/Header'
-import Card from '../../components/Card';
-import { BackgroundColor, WrapperFeed } from '../../assets/styles/Global';
+import CardSpider from '../../components/CardSpider';
+import { WrapperFeed, BackgroundColor } from '../../assets/styles/Global';
+import { CardBackgroundMeme, BackgroundSize } from './styles';
 
 
-interface Article {
-    title: string;
-    url: string;
-    description: string;
-    urlToImage: string;
-  }
   
 function FotosDoHomemAranha() {
-
-    const [articles, setArticles] = useState<Article[]>([])
-
-    //array vazio executa apenas uma vez no momento da construção do componente
-    useEffect(() => {
-
-        // const getNoticias = async ()=> {
-        //     // const response = await getTopHeadLines()
-        //     const response = await getSpidermanPics()
-        //     setArticles(response.articles)
-        // };
-
-        // getNoticias();
-
-    },[])
+    const photoLists = [
+        {photoUrl: 'https://imgur.com/YLsNDts'},
+        {photoUrl: 'https://imgur.com/J1VOqPD'},
+        {photoUrl: 'https://imgur.com/BuiAtqw'},
+        {photoUrl: 'spider4'},
+        {photoUrl: 'spider5'},
+        {photoUrl: 'spider6'},
+        {photoUrl: 'spider7'},
+        {photoUrl: 'spider8'},
+        {photoUrl: 'spider9'},
+        {photoUrl: 'spider10'},
+    ];
 
     return (
         <div>
 <Header/>
-    <BackgroundColor>
+<BackgroundColor>
         <WrapperFeed>
+          <CardBackgroundMeme/>
+          <BackgroundSize>
             {
-                articles.map((article, index) => {
+                photoLists.map((photoList, index) => {
                     return ( 
-                    <Card 
-                    titulo={article.title} 
-                    desc={article.description} 
-                    link={article.url} 
-                    imageUrl={article.urlToImage}
-                    key={index}
+                    <CardSpider 
+
+                    imageUrlSpider={photoList.photoUrl}
+
                     />)
                 })
             }
+          </BackgroundSize>
         </WrapperFeed>
-    </BackgroundColor>
+        </BackgroundColor>
 </div>
     )
 }
