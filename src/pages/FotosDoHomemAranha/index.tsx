@@ -1,9 +1,7 @@
-import { useEffect, useState } from 'react';
 import Header from '../../components/Header'
 import CardSpider from '../../components/CardSpider';
 import { WrapperFeed, BackgroundColor } from '../../assets/styles/Global';
 import { CardBackgroundMeme, BackgroundSize } from './styles';
-
 
   
 function FotosDoHomemAranha() {
@@ -16,7 +14,7 @@ function FotosDoHomemAranha() {
         {photoUrl: 'https://imgur.com/m5GDi3w'},
         {photoUrl: 'https://imgur.com/IOcPYtr'},
         {photoUrl: 'https://imgur.com/PNWle72'},
-        {photoUrl: 'https://imgur.com/PNWle72'},
+        {photoUrl: 'https://imgur.com/TRKSclR'},
         {photoUrl: 'https://imgur.com/A2G1DjS'},
     ];
 
