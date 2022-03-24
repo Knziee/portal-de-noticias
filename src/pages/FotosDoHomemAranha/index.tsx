@@ -8,16 +8,16 @@ import { CardBackgroundMeme, BackgroundSize } from './styles';
   
 function FotosDoHomemAranha() {
     const photoLists = [
-        {photoUrl: 'https://imgur.com/YLsNDts'},
-        {photoUrl: 'https://imgur.com/J1VOqPD'},
-        {photoUrl: 'https://imgur.com/BuiAtqw'},
-        {photoUrl: 'spider4'},
-        {photoUrl: 'spider5'},
-        {photoUrl: 'spider6'},
-        {photoUrl: 'spider7'},
-        {photoUrl: 'spider8'},
-        {photoUrl: 'spider9'},
-        {photoUrl: 'spider10'},
+        {photoUrl: 'https://imgur.com/kGxFZGo'},
+        {photoUrl: 'https://imgur.com/mR8RYG4'},
+        {photoUrl: 'https://imgur.com/L11GuJ3'},
+        {photoUrl: 'https://imgur.com/2sbdp7i'},
+        {photoUrl: 'https://imgur.com/44DSWKT'},
+        {photoUrl: 'https://imgur.com/m5GDi3w'},
+        {photoUrl: 'https://imgur.com/IOcPYtr'},
+        {photoUrl: 'https://imgur.com/PNWle72'},
+        {photoUrl: 'https://imgur.com/PNWle72'},
+        {photoUrl: 'https://imgur.com/A2G1DjS'},
     ];
 
     return (
